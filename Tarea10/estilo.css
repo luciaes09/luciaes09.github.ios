@@ -1,0 +1,98 @@
+#contenedor{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 244, 230);
+   
+}
+#cabecera a{
+    text-decoration: none;
+    color: black;
+    
+}
+#cabecera a:hover{
+    color:brown;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    transition-delay: 200ms;
+}
+
+#cabecera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+
+table{
+    border: 2px solid rgb(240, 240, 240);
+    border-collapse: collapse;
+    margin: 70px;
+}
+td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+thead{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+tbody{
+    text-align: center;
+    font-size: medium;
+    background-color: bisque;
+}
+.cuadro{
+    background-color: brown;
+}
+#tablas{
+    display: flex;
+   padding-right: 80px;
+}
+#contenido{
+    display: flex;
+    padding-top: 100px;
+}
+
+h3{
+    text-align: center;
+}
+hr{
+    border: 1px solid brown;
+   
+}
+#formulario{
+    width: 250px;
+    height: 380px;
+    font-size: smaller;
+    border: 1px solid black;
+    margin: 12px auto;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px gray;
+    text-align: center;
+    
+    
+}
+.botones input{
+    background-color: rgb(231, 22, 22);
+   border-radius: 5px;
+}
+#pie{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(150, 2, 2);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h4{
+    text-align: center;
+}
