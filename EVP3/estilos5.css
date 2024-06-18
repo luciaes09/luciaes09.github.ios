@@ -1,0 +1,134 @@
+#contenedor{
+   
+    width: 900px;
+     padding-left: 250px;
+     padding-top: 10px;
+     
+ }
+ #cabecera{
+     text-align: center;
+     color: rgb(54, 9, 9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(252, 207, 214);
+ 
+ }
+ #menu{
+     display: flex;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     background-color: rgb(252, 207, 214);
+ }
+ #menu a{
+     padding: 20px;
+     text-decoration: none;
+     color: rgb(243, 43, 193);
+ }
+ #menu a:hover{
+     color: #361313;
+     transition-property: color;
+     transition-duration: 800ms;
+     transition-timing-function: ease;
+     transition-delay: 50ms;
+ }
+#contenido{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top,rgb(228,121,196),rgb(52,148,212),rgb(253,146,146))
+}
+table{
+    border: 2px solid rgb(240, 240, 240);
+    border-collapse: collapse;
+    margin: 70px;
+}
+td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+form{
+    padding: 0px 40px;
+    box-shadow: 0 0 20px rgb(0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 180px; 
+    
+    
+}
+#encuesta{
+    padding-right: 80px;
+    
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+input,textarea{
+    padding: 17px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(204, 190, 190);
+    border: 2px solid white;
+    color: black;
+    outline: none;
+}
+input::placeholder,textarea::placeholder{
+    color: azure;
+}
+.btn{
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(172, 48, 39);
+    box-shadow: 0 0 20px rgb(99, 13, 13);
+    cursor: pointer;
+}
+.boton input{
+    background-color: grey;
+    color: white;
+    
+}
+h3{
+    text-align: center;
+    color: rgb(245, 0, 143);
+    padding-top: 20px;
+}
+iframe{
+
+    margin-top: 40px;
+   
+}
+.caja{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 80px;
+}
+.uno{
+    background: linear-gradient(to top,rgb(228,121,196),rgb(52,148,212),rgb(253,146,146));
+}
+
+ #pie{
+    display: flex;
+    align-items: center;
+    padding-left: 380px;
+    padding-top: 30px;
+    background-color: pink;
+}
+#pie img{
+    border-radius: 100px;
+    
+}
+#pie a{
+    padding: 5px;
+}

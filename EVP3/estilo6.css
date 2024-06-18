@@ -1,0 +1,103 @@
+#contenedor{
+   
+    width: 900px;
+     padding-left: 250px;
+     padding-top: 10px;
+     
+ }
+ #cabecera{
+     text-align: center;
+     color: rgb(54, 9, 9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(252, 207, 214);
+ 
+ }
+ #menu{
+     display: flex;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     background-color: rgb(252, 207, 214);
+ }
+ #menu a{
+     padding: 20px;
+     text-decoration: none;
+     color: rgb(243, 43, 193);
+ }
+ #menu a:hover{
+     color: #361313;
+     transition-property: color;
+     transition-duration: 800ms;
+     transition-timing-function: ease;
+     transition-delay: 50ms;
+ }
+.main-grid{
+    
+    display:grid;
+          grid-template-areas: "cabeza cabeza cabeza"
+                                "article article section"
+                                "pieco pieco pieco";
+         grid-template-columns: 1fr 2fr 3fr;
+
+}
+
+.header{
+    grid-area: cabeza;
+    text-align: center;
+    background-color: pink;
+}
+.content{
+    grid-area: article;
+}
+.sidebar{
+    grid-area: section;
+}
+.footer{
+    grid-area: pieco;
+    text-align: center;
+    background-color: pink;
+}
+h3{
+    text-align: center;
+}
+.content,img{
+    padding-left: 50px;
+}
+.sidebar,img{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #pie{
+    display: flex;
+    align-items: center;
+    padding-left: 380px;
+    padding-top: 30px;
+    background-color: pink;
+}
+#pie img{
+    border-radius: 100px;
+    
+}
+#pie a{
+    padding: 5px;
+}

@@ -1,0 +1,70 @@
+#contenedor{
+    width: 900px;
+     padding-left: 250px;
+     padding-top: 10px;
+ }
+ #cabecera{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    
+    background-color: pink;
+    color: rgb(54, 9, 9);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 20px;
+
+}
+#menu{
+    display: flex;
+    justify-content: center;
+}
+#menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(243, 43, 193);
+}
+#menu a:hover{
+    color: #361313;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease;
+    transition-delay: 50ms;
+}
+
+ 
+
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    padding: 20px;
+    text-align: center;
+}
+figure img{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 15px;
+    height: 300px;
+    
+   
+}
+
+
+
+
+
+#pie{
+    display: flex;
+    align-items: center;
+    padding-left: 380px;
+    padding-top: 80px;
+}
+#pie img{
+    border-radius: 100px;
+    
+}
+#pie a{
+    padding: 5px;
+}
