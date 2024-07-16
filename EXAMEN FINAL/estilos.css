@@ -1,0 +1,42 @@
+.navbar{
+    padding: 2rem;
+    background-color: pink;
+}
+#navbarNavDropdown{
+    justify-content: end;
+}
+.imagen{
+    border-radius: 60%;
+    
+}
+.col-imagen{
+    padding-top: 50px;
+}
+#row-conoce{
+    background-color: blueviolet;
+}
+#galeria .col-lg-4 {
+    margin: 0;
+    padding: 25px;
+    
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 5px solid white;
+}
+.carousel img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.carousel{
+    height: 220px;
+}
+.icono{
+    color: white;
+    padding: 5px;
+}
